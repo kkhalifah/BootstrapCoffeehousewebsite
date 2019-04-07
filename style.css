@@ -1,0 +1,61 @@
+/*styles.css */
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+/* cover section*/
+#cover {
+    background: #222 url('assets/img/caffeine-close-up-coffee-8503842.jpg') center center no-repeat;
+    background-size: cover;
+    color: #58A4B0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%; 
+}
+
+.intro {
+    color: #373F51;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.display-2 {
+    font-weight: 700;
+}
+
+
+/* cards  rem div by 16 (pixels) height from html*/
+.section-content {
+    padding: 5rem 0;
+}
+
+/* about me section */
+#about {
+    background: url('assets/img/girlincar.jpg')center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+/*footer*/
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
